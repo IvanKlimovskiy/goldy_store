@@ -1,0 +1,85 @@
+@import "variables";
+
+@mixin int-reg {
+  font-family: $ff-int;
+  font-weight: $fw-reg;
+  color: $mn-clr;
+  line-height: 100%;
+}
+
+@mixin int-reg-14 {
+  line-height: 100%;
+  font-family: $ff-int;
+  font-weight: $fw-reg;
+  color: $mn-clr;
+  font-size: 14px;
+}
+
+@mixin int-reg-16 {
+  font-family: $ff-int;
+  font-weight: $fw-reg;
+  font-size: 16px;
+  color: $mn-clr;
+  line-height: 100%;
+}
+
+@mixin int-med {
+  font-family: $ff-int;
+  font-weight: $fw-m;
+  color: $mn-clr;
+  line-height: 100%;
+}
+
+@mixin int-sb {
+  font-family: $ff-int;
+  font-weight: $fw-sb;
+  color: $mn-clr;
+  line-height: 100%;
+}
+
+@mixin prt-40 {
+  font-family: $ff-prt;
+  font-size: 40px;
+  color: $mn-clr;
+  line-height: 100%;
+}
+
+@mixin int-m-13 {
+  font-family: $ff-int;
+  font-weight: $fw-m;
+  font-size: 13px;
+  color: $mn-clr;
+  line-height: 100%;
+}
+
+@mixin int-m-14 {
+  font-family: $ff-int;
+  font-weight: $fw-m;
+  font-size: 14px;
+  color: $mn-clr;
+  line-height: 100%;
+}
+
+@mixin int-m-16 {
+  font-family: $ff-int;
+  font-weight: $fw-m;
+  font-size: 16px;
+  color: $mn-clr;
+  line-height: 100%;
+}
+
+@mixin int-sb-18 {
+  font-family: $ff-int;
+  font-weight: $fw-sb;
+  font-size: 18px;
+  color: $mn-clr;
+  line-height: 100%;
+}
+
+@mixin int-l-14 {
+  font-family: $ff-int;
+  font-weight: $fw-l;
+  font-size: 14px;
+  color: $mn-clr;
+  line-height: 100%;
+}
